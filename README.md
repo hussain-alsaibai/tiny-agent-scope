@@ -58,7 +58,7 @@ finally:
 - **Live accounting** — `scope.used()` / `scope.remaining()` return real-time state
 - **Callbacks** — `on_step`, `on_violation`, `on_abort` for observability + kill switch
 - **Graceful abort** — `scope.abort()` sets a flag; the next `step()` raises `BudgetExceeded`
-- **Zero dependencies** — pure stdlib, ~280 LOC, 32/32 tests passing
+- **Zero dependencies** — pure stdlib, ~293 LOC, 41/41 tests passing
 - **Context manager** — `with agent_scope(...):`
 
 ## API
